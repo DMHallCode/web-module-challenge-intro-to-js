@@ -13,13 +13,20 @@ returns a value, that value will be logged to the console.  An example of this w
 /*
 Task 1a - Voting Age (not auto tested)
 
+
 Do the following:   
    1. Create a variable called votingAge and assign it a number value
    2. Console log true if age is 18 or higher
 
    HINT: no function required
 */
+const votingAge = 18;
 
+if (votingAge >= 18){
+  console.log(true);
+}else{
+  console.log(false);
+}
 
 
 /*
@@ -33,6 +40,13 @@ Do the following:
 
    HINT: no function required
 */
+let firstThing = "good"
+let secondThing = "bad"
+
+if(firstThing === "good"){
+  secondThing = "no"
+}
+console.log(secondThing);
 
 
 
@@ -49,7 +63,8 @@ Do the following:
    HINT: look up the Number method
 */
 
-
+const year = "1999";
+console.log(Number(year));
 
 
 /*
@@ -65,7 +80,7 @@ function multiply(num1, num2){
   return num1 * num2;
 }
 
-
+console.log(multiply(9,9));
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
